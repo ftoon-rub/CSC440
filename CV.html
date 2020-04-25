@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+	#back{
+    
+    font-size: 30px;
+    cursor: pointer;
+    }
+    body{
+        text-align: center;
+            
+    }
+    
+</style>
+</head>
+<body>
+
+<h1>Hello if you interest to see my CV click the button</h1>
+<button id = "back" onclick="document.getElementById('myImage').style.display='block'">My CV</button>
+<img id="myImage" src="computer science.png" style="display:none;">
+<br>
+<br>
+<button id = "back" onclick="home()">Back to Home page</button>
+
+<script>
+function home() {
+  location.replace("Home.html")
+}
+</script>
+</body>
+</html>
